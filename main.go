@@ -20,7 +20,7 @@ import (
 )
 
 const clusterName = "cluster-manager"
-const tickMilliseconds uint32 = 100
+const tickMilliseconds uint32 = 3000
 
 func main() {
 	proxywasm.SetVMContext(&vmContext{})
